@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+padding: 0;
+   margin: 0;
+ font-family: "Noto Serif",serif;
+}
+
+.container{
+ background-image: url(header-bg.png);
+ background-position: center center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 600px;
+ position: relative;
+}
+ul{
+ background-color: ;
+ margin: 4px;
+ list-style: none;
+ display: flex;
+ justify-content: space-around;
+ width: 50%;
+}
+a{
+ text-decoration: none;
+ color: white;
+}
+a:hover{
+ color:rgb(255, 0, 111);
+ text-decoration: underline;
+}
+.container h1,h2{
+ color: white;
+}
+.container h1{
+ font-size:50px;
+ margin-top: 40px;
+}
+.header button{
+ padding: 5px 10px;
+ border-radius: 20px;
+ background-color: rgb(255, 0, 111);
+ border: 0px;
+ color: white
+}
+.header .list{
+ background-color: ;
+ padding: 10px;
+ display: flex;
+ justify-content: space-between;
+ align-items:center;
+ width: 100%;
+}
+.letter{
+ text-align: center;
+ width: 50%;
+ background-color:;
+
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+
+}
+.line{
+ width:20%;
+ height: 3px;
+ background-color:rgb(255, 0, 111) ;
+ margin:auto;
+ margin-top: 5px;
+}
+.addres{
+   width: 50%;
+   
+   color: rgb(25, 31, 110);
+   text-align: center;
+   margin: auto;
+   padding: 20px;
+}
+.embty{
+   width: 120px;
+   height: 3px;
+   background-color: rgb(255, 0, 111);
+   margin: auto;
+   margin-top: 5px;
+}
+.camp{
+
+   display: flex;
+   justify-content: center;
+   
+}
+.camp1 h3{
+   text-align: center;
+   margin: 15px;
+}
+.camp1{
+
+   width: 35%;
+   padding: 20px;
+   
+}
+.camp1 img{
+   width: 100%;
+}
+.trans{
+   display: flex;
+   justify-content: center;
+}
+p{
+   font-size: small;
+}
+.camp1 button{
+   margin: auto;
+   color: white;
+   padding: 5px 10px;
+   border-radius: 20px;
+   background-color: rgb(255, 0, 111);
+   border: 0px;
+   margin: 20px;
+}
+
+.camp2 {
+
+   width:35%;
+   padding: 25px;
+
+}
+
+.camp2 img {
+   width: 100%;
+}
+.camp2 h3 {
+   text-align: center;
+   margin: 15px;
+}
+.camp2 button {
+   color: white;
+
+   padding: 5px 10px;
+   border-radius: 20px;
+   background-color: rgb(255, 0, 111);
+   border: 0px;
+   margin-top: 20px;
+}
+.camp img{
+   transition: transform .3s ease;
+}
+.camp img:hover {
+  transform: scale(1.1);
+}
+.section{
+   background-image: url(bg2.png);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height:600px;
+   display: flex;
+   align-items: center;
+}
+.bg{
+   width: 65%;
+   
+   text-align: center;
+   background-color:;
+   
+}
+.line2{
+ width:15%;
+ height: 2px;
+ background-color: rgb(255, 0, 111);
+ margin: auto;
+ margin-top: 7px;
+}
+
+.bg p{
+ padding: 30px;
+ color: white;
+}
+.bg h4{
+   font-size: 30px;
+   color: white;
+}
+.bg button {
+   padding: 5px 10px;
+   border-radius: 20px;
+   background-color: rgb(255, 0, 111);
+   border: 0px;
+   color: white;
+}
+
+.letter1{
+   width: 40%;
+   margin-left: 20px;
+}
+.letter1 h3{
+ font-size: 40px;
+}
+.letter1 button {
+   padding: 5px 10px;
+   border-radius: 20px;
+   background-color: rgb(255, 0, 111);
+   border: 0px;
+   color: white;
+   margin: auto;
+}
+button:hover{
+   color: rgb(255, 0, 111);
+   background-color: aliceblue;
+   cursor: pointer;
+}
+.line3{
+
+   width: 25%;
+   height: 2px;
+   background-color: rgb(255, 0, 111);
+   
+   margin-top: 7px;
+   
+}
+.letter1 p{
+   padding: 20px;
+}
+.butt{
+
+   width: 100%;
+   display: flex;
+}
+.photos{
+   width: 50%;
+
+   display: flex;
+
+   flex-wrap: wrap;
+}
+.photos img{
+   width: 40%;
+   padding: 5px;
+   transition: transform .3s ease;
+}
+.photos img:hover
+{
+ transform: scale(1.1);
+}
+.all{
+   height: 600px;
+   display: flex;
+   justify-content: center;
+      align-items: center;
+}
+
+@media screen and (max-width:600px) {
+   .container{
+      height: 400px;
+   }
+   .list{
+      background-color: ;
+      display: flex;
+      flex-direction: column;
+   }
+   ul{
+      flex-direction: row;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px;
+   }
+   .letter{
+      font-size: 10px;
+      margin-top: 60px;
+   }
+   .letter h1{
+      font-size: xx-large;
+   }
+   .letter button{
+      margin: 10px;
+   }
+   .camp{
+      flex-wrap: wrap;
+   }
+   .camp1{
+      width: 100%;
+   }
+   .camp2 {
+     width: 100%;
+    }
+   .addres h1{
+      font-size: large;
+   }
+   .bg{
+      width: 100%;
+   }
+   .all{
+      height: 700px;
+      display: flex;
+      margin: 0px 20px;
+      flex-direction: column;
+   }
+   .letter1{
+      width: 100%;
+      padding: 50px 0px;
+
+   }
+      .photos {
+         width: 100%;  
+         display: flex;
+         justify-content: center;           
+      }
+
+}
